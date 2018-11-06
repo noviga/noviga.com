@@ -19,7 +19,7 @@ done
 icotool -o ../docs/img/favicon.ico -c $PNGLIST
 
 # Various sized PNG
-for SIZE in 48 57 72 114 120 144 152 256 512
+for SIZE in 48 57 72 114 120 144 152 256 400 512 640
 do
   inkscape -z ../img/noviga-favicon.svg --export-png=../docs/img/favicon-${SIZE}.png --export-width=$SIZE
   optipng -o7 ../docs/img/favicon-${SIZE}.png
