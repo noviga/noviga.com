@@ -1,4 +1,4 @@
-.PHONY: all html serve pdf clean
+.PHONY: all html serve clean
 
 all:
 	pip install doker --user
